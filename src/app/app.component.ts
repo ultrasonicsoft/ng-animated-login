@@ -7,9 +7,15 @@ import '../assets/login-animation.js';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';  
+  email: string;
+  password: string;
 
-  ngAfterViewInit() {    
+  ngAfterViewInit() {
     (window as any).initialize();
+  }
+
+  login(){
+    console.log(`email: ${this.email} password: ${this.password}`)
+    alert(`Email: ${this.email} Password: ${this.password}`)
   }
 }
