@@ -6,6 +6,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 http://ng-animated-login.surge.sh/
 
+
+![demo](https://user-images.githubusercontent.com/4145169/36626729-dcb2fbb4-195d-11e8-9f26-37a20937a48f.gif)
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
